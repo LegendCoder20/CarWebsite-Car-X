@@ -1,0 +1,42 @@
+[
+  {
+    "car": "Bentley",
+    "image": "https://cdn.pixabay.com/photo/2018/09/22/22/13/bentley-3696330_960_720.jpg"
+  },
+  {
+    "car": "Jaguar",
+    "image": "https://carsguide-res.cloudinary.com/image/upload/f_auto,fl_lossy,q_auto,t_cg_hero_large/v1/editorial/2021-Jaguar-F-PACE-R-Dynamic-SE-P400%20-Eiger-Grey-press-image-1200x800p-%2820%29.jpg"
+  },
+  {
+    "car": "Land Rover",
+    "image": "https://w0.peakpx.com/wallpaper/196/583/HD-wallpaper-2021-range-rover-velar-interior-steering-wheel-car.jpg"
+  },
+  {
+    "car": "BMW",
+    "image": "https://www.bmw.in/content/dam/bmw/common/accessories/images/f87_mperf_alcantara_pro_steering_wheel_a0210680.jpg"
+  },
+  {
+    "car": "Mercedes-Benz",
+    "image": "https://www.cnet.com/a/img/resize/6388add47bad08842262f07d72813c703d928683/hub/2020/05/22/579fa498-992b-4e68-84d8-5a1f5b2c4d8b/e-class-wheel-promo.jpg?auto=webp&fit=crop&height=675&width=1200"
+  },
+  {
+    "car": "Audi",
+    "image": "https://imgd-ct.aeplcdn.com/1056x660/n/cw/ec/34470/q8-interior-steering-wheel.jpeg?q=80"
+  },
+  {
+    "car": "Lamborghini",
+    "image": "https://i.insider.com/64fb64cf3d392300197717aa?width=800&format=jpeg&auto=webp"
+  },
+  {
+    "car": "Ferrari",
+    "image": "https://www.10wallpaper.com/wallpaper/1920x1200/1109/Steering_wheel-Ferrari_458_Series_Sports_car_wallpaper_1920x1200.jpg"
+  },
+  {
+    "car": "Porsche",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJGra6TNCjgaFdNE5M0phpmuUbR600zysE3Q&usqp=CAU"
+  },
+  {
+    "car": "Bugatti",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiU-y7et9Q4N11694iN6RvTEq2HxysUcudHA&usqp=CAU"
+  }
+]
