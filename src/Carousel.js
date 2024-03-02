@@ -18,12 +18,14 @@ function Carousel() {
 
   return (
     <div className="container">
+      {/* Carousel */}
       {carousal.map((e, index) => (
         <div
           id="carouselExampleCaptions"
           className="carousel slide carousel-fade"
           key={index}
         >
+          {/* Carousel indicators */}
           <div className="carousel-indicators">
             {e.carousalImages.map((_, i) => (
               <button
@@ -37,6 +39,7 @@ function Carousel() {
               ></button>
             ))}
           </div>
+          {/* Carousel inner */}
           <div className="carousel-inner">
             {e.carousalImages.map((image, i) => (
               <div
@@ -50,31 +53,6 @@ function Carousel() {
                 />
                 <div className="carousel-caption d-none d-md-block">
                   <h5>{e.carousalText[i]}</h5>
-                  <Link
-                    to={"/allsportscar"}
-                    className="btn btn-danger"
-                    role="button"
-                  >
-                    Sports Cars
-                  </Link>
-
-                  <Link
-                    to={"/allluxuarycars"}
-                    className="btn btn-primary"
-                    role="button"
-                  >
-                    Luxuary Cars
-                  </Link>
-                  <Link
-                    to={"/allracingcars"}
-                    className="btn btn-success"
-                    role="button"
-                  >
-                    Racing Cars
-                  </Link>
-                  <Link to={"/"} className="btn btn-warning" role="button">
-                    Car Games
-                  </Link>
                 </div>
               </div>
             ))}
@@ -106,6 +84,28 @@ function Carousel() {
           </button>
         </div>
       ))}
+
+      {/* Buttons */}
+      <center>
+        <div className="buttons-container">
+          <Link to={"/allsportscar"} className="btn btn-danger" role="button">
+            Sports Cars
+          </Link>
+          <Link
+            to={"/allluxuarycars"}
+            className="btn btn-primary"
+            role="button"
+          >
+            Luxury Cars
+          </Link>
+          <Link to={"/allracingcars"} className="btn btn-success" role="button">
+            Racing Cars
+          </Link>
+          <Link to={"/"} className="btn btn-warning" role="button">
+            Car Games
+          </Link>
+        </div>
+      </center>
     </div>
   );
 }
